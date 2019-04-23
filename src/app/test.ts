@@ -1,0 +1,34 @@
+export class Test {
+    DocEntry: number;
+    DocNum: number;
+    Period: number;
+    Instance: number;
+    Series: number;
+    HandWrtten: string;
+    Canceled: string;
+    Object: string;
+    LogInst: number;
+    Transferred: string;
+    Status: string;
+    CreateDate: Date;
+    CreateTime: Date;
+    UpdateDate: Date;
+    UpdateTime: Date;
+    DataSource: string;
+    RetStatus: string;
+    Creator: number;
+    Memo: string;
+    UserSign: number;
+    Dept: string;
+    Position: string;
+    CusNam: string;
+    ConNum: string;
+    Project: string;
+    PostDate: Date;
+    Approve1: string;
+    Approve2: string;
+    Approve3: string;
+    Approve4: string;
+    Approve5: string;
+    Approve6: string;
+}

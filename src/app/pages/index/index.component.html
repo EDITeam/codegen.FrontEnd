@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row" style="margin-top:100px">
+    <div class="col-md-12 text-right">
+      <input name="name" [(ngModel)]="fileName" type="text" placeholder="请输入xml文件名称（不需后缀且区分大小写）" style="width: 300px">
+      <button (click)="readXML()">readXML</button>
+    </div>
+  </div>
+  <div class="row" style="margin-top:30px;padding-bottom: 30px">
+    <div class="col-md-6">
+      <h4>主表数据模型：</h4>
+      <div class="text-center" style="width: 500px;white-space: normal" *ngFor="let item of masterTable">{{item}}</div>
+    </div>
+    <div class="col-md-6">
+      <h4>子表数据模型：</h4>
+      <div class="text-center" style="width: 500px;white-space: normal" *ngFor="let item of childTable">{{item}}</div>
+    </div>
+  </div>
+</div>
+
+
+
+<app-root></app-root>
